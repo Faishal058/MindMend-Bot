@@ -1,0 +1,48 @@
+# Ignore PDF files
+ilovepdf_merged (2).pdf
+
+# Ignore LLM model binary file
+llama-2-7b-chat.ggmlv3.q8_0.bin
+
+# Ignore Python bytecode
+*.py[cod]
+__pycache__/
+*.so
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+
+# Ignore distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignore logs and database
+*.log
+*.sql
+*.sqlite
+
+# Ignore other specific files
+*.env
+.DS_Store
+Thumbs.db
